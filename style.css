@@ -1,0 +1,131 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 0;
+   text-decoration: none;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+   background-color: #fff;
+}
+
+#login {
+   padding: 140px 45px 200px;
+   background-color: #F0F2F5;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.fb-head {
+   flex-basis: 50%;
+   padding-top: 30px;
+}
+
+h1 {
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 3.9rem;
+   color: #1878F3;
+   padding: 4px 0;
+}
+
+.fb-head p {
+   font-size: 1.6rem;
+}
+
+.group {
+   width: 360px;
+   background-color: #ffffff;
+   padding: 10px;
+   border-radius: 7px;
+   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1), -1px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+input {
+   width: 95%;
+   padding: 11px;
+   margin: 7px;
+   border: none;
+   border: 0.5px solid gray;
+   border-radius: 5px;
+}
+
+input[name=txt-email]:focus,
+input[name=password]:focus {
+   outline: 0.5px solid #1878F3;
+}
+
+input[type=submit] {
+   background-color: #1878F3;
+   color: #fff;
+   font-weight: 700;
+   font-size: 1rem;
+}
+
+.para {
+   padding: 8px;
+   text-align: center;
+   font-size: 0.7rem;
+   color: #1878F3;
+}
+
+hr {
+   border: none;
+   height: 0.1px;
+   background-color: gray;
+}
+
+.hr {
+   width: 95%;
+   margin: 9px auto 7px auto;
+}
+
+input[type=button] {
+   width: unset;
+   background-color: #42B72A;
+   color: #fff;
+   font-weight: 700;
+   font-size: 1rem;
+   display: block;
+   margin: 16px auto;
+   margin-top: 22px;
+}
+
+.right {
+   padding: 25px 35px;
+   text-align: right;
+   font-size: 0.8rem;
+}
+
+.links {
+   padding: 15px 40px;
+}
+
+.links a,
+span,
+.copy {
+   color: gray;
+   font-size: 0.75rem;
+   padding: 10px 4px;
+}
+
+button {
+   margin: 4px;
+   padding: 0px 7px;
+}
+
+
+span {
+   padding: 10px unset;
+   padding-right: 14px;
+}
+
+.copy {
+   padding-top: 25px;
+}
